@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #395144;
+  --color-primary-variant: #4e6c50;
+  --color-secondary: #aa8b56;
+  --color-bg: #f5efe6;
+  --color-primary-font: #f0ebce;
+  --color-secondary-font: black;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.header h1 {
+  color: var(--color-primary-font);
+}
+
+img {
+  display: block;
+}
